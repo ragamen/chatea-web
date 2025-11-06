@@ -53398,26 +53398,25 @@ return A.l($async$oc,r)},
 q2(a){return this.amA(a)},
 amA(a){var s=0,r=A.m(t.H),q,p=this,o,n,m,l,k
 var $async$q2=A.i(function(b,c){if(b===1)return A.j(c,r)
-while(true)switch(s){case 0:l=J.a3(a)
-k=A.bo(l.h(a,"from"))
-if(k==null){A.dD("ERROR: Offer sin 'from'")
+while(true)switch(s){case 0:m=J.a3(a)
+l=A.bo(m.h(a,"from"))
+k=A.bo(m.h(a,"sdp"))
+if(l==null||k==null){A.dD("ERROR: Offer inv\xe1lido: "+A.n(a))
 s=1
 break}s=3
-return A.f(p.ahS(k),$async$q2)
-case 3:o=p.x
-n=o.h(0,k)
-n.toString
+return A.f(p.ahS(l),$async$q2)
+case 3:m=p.x
 s=4
-return A.f(n.pC(0,new A.iS(l.h(a,"sdp"),"offer")),$async$q2)
+return A.f(m.h(0,l).pC(0,new A.iS(k,"offer")),$async$q2)
 case 4:s=5
-return A.f(o.h(0,k).yI(0),$async$q2)
-case 5:m=c
+return A.f(m.h(0,l).yI(0),$async$q2)
+case 5:o=c
 s=6
-return A.f(o.h(0,k).pB(0,m),$async$q2)
-case 6:o=p.e
-o===$&&A.a()
-l=t.N
-o.da(0,A.D(["type","Answer","data",A.D(["sdp",m.a,"to",k],l,t.u)],l,t.z))
+return A.f(m.h(0,l).pB(0,o),$async$q2)
+case 6:m=p.e
+m===$&&A.a()
+n=t.N
+m.da(0,A.D(["type","Answer","data",A.D(["sdp",o.a,"to",l],n,t.u)],n,t.z))
 case 1:return A.k(q,r)}})
 return A.l($async$q2,r)},
 CE(a){return this.akO(a)},
