@@ -50580,7 +50580,7 @@ Nk(a){return this.ayw(a)},
 ayw(a){var s=0,r=A.m(t.H),q=this,p
 var $async$Nk=A.i(function(b,c){if(b===1)return A.j(c,r)
 while(true)switch(s){case 0:q.c=B.dH.vV()
-p=A.b4E(A.aPS(A.cm("ws://89.117.145.134:8081/ws",0,null),null))
+p=A.b4E(A.aPS(A.cm("wss://sfu.mbtech.work/ws",0,null),null))
 q.a=p
 p=p.r.b
 p===$&&A.a()
