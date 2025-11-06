@@ -53240,7 +53240,7 @@ A.r2.prototype={
 ai(){var s,r=$.ef().b
 r===$&&A.a()
 s=t.N
-return new A.HM(r,A.u(s,t.wG),A.u(s,t.Lr),A.b([],t.s),A.u(s,t.f))}}
+return new A.HM(r,A.u(s,t.wG),A.u(s,t.Lr),A.b([],t.s),A.u(s,t.a))}}
 A.HM.prototype={
 av(){this.aK()
 this.e=new A.avG()
@@ -53302,47 +53302,47 @@ return A.f(p.lr(o),$async$rg)
 case 6:case 1:return A.l(q,r)}})
 return A.m($async$rg,r)},
 lr(a){return this.ap8(a)},
-ap8(a){var s=0,r=A.n(t.H),q=this,p,o,n,m,l,k,j,i,h,g
+ap8(a){var s=0,r=A.n(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f
 var $async$lr=A.j(function(b,c){if(b===1)return A.k(c,r)
-while(true)switch(s){case 0:j=q.d
-i=j.geW().c
-h=(i==null?null:i.r).a
-g=A
+while(true)switch(s){case 0:i=q.d
+h=i.geW().c
+g=(h==null?null:h.r).a
+f=A
 s=2
-return A.f(j.cd("conference_participants").RL(0).ci("room_id",a).ci("user_id",h).Bz(0),$async$lr)
-case 2:q.H(new g.aDN(q,c))
-i=q.e
-i===$&&A.a()
+return A.f(i.cd("conference_participants").RL(0).ci("room_id",a).ci("user_id",g).Bz(0),$async$lr)
+case 2:q.H(new f.aDN(q,c))
+h=q.e
+h===$&&A.a()
 s=3
-return A.f(i.ayv(a),$async$lr)
-case 3:i=q.e.c
-s=i!=null?4:5
+return A.f(h.ayv(a),$async$lr)
+case 3:h=q.e.c
+s=h!=null?4:5
 break
-case 4:A.bS("Updating my peer_id in Supabase: "+i)
-i=t.z
+case 4:A.bS("Updating my peer_id in Supabase: "+h)
+h=t.z
 s=6
-return A.f(j.cd("conference_participants").c5(0,A.C(["peer_id",q.e.c],i,i)).ci("room_id",a).ci("user_id",h),$async$lr)
+return A.f(i.cd("conference_participants").c5(0,A.C(["peer_id",q.e.c],h,h)).ci("room_id",a).ci("user_id",g),$async$lr)
 case 6:case 5:s=7
 return A.f(q.oh(),$async$lr)
-case 7:j=j.cd("conference_participants").hj(0,"peer_id, video_enabled, audio_enabled, user_id").ci("room_id",a)
-p=j.us("user_id","neq."+h)
+case 7:i=i.cd("conference_participants").hj(0,"peer_id, video_enabled, audio_enabled, user_id").ci("room_id",a)
+p=i.us("user_id","neq."+g)
 s=8
-return A.f(A.pe(j.wP(p),j.$ti.c),$async$lr)
+return A.f(A.pe(i.wP(p),i.$ti.c),$async$lr)
 case 8:o=c
 q.e.b=new A.aDO(q)
-j=J.aT(o),i=q.as,n=t.z
-case 9:if(!j.v()){s=10
-break}m=j.gM(j)
-l=J.a3(m)
-k=l.h(m,"peer_id")
-s=k!=null&&!J.c(k,q.e.c)?11:12
+i=J.aT(o),h=q.as,n=t.N,m=t.z
+case 9:if(!i.v()){s=10
+break}l=i.gM(i)
+k=J.a3(l)
+j=k.h(l,"peer_id")
+s=j!=null&&!J.c(j,q.e.c)?11:12
 break
-case 11:if(q.c!=null){new A.aDP(q,k).$0()
-q.c.cZ()}i.m(0,k,A.C(["video_enabled",J.c(l.h(m,"video_enabled"),!0),"audio_enabled",J.c(l.h(m,"audio_enabled"),!0)],n,n))
+case 11:if(q.c!=null){new A.aDP(q,j).$0()
+q.c.cZ()}h.m(0,j,A.C(["video_enabled",J.c(k.h(l,"video_enabled"),!0),"audio_enabled",J.c(k.h(l,"audio_enabled"),!0)],n,m))
 s=q.Q?13:14
 break
 case 13:s=15
-return A.f(q.mH(k,!0),$async$lr)
+return A.f(q.mH(j,!0),$async$lr)
 case 15:case 14:case 12:s=9
 break
 case 10:return A.l(null,r)}})
@@ -53574,7 +53574,7 @@ p.F(0,a)
 return A.l(null,r)}})
 return A.m($async$C4,r)},
 CA(a){return this.akp(a)},
-akp(a){var s=0,r=A.n(t.f),q,p=this,o,n,m,l,k
+akp(a){var s=0,r=A.n(t.a),q,p=this,o,n,m,l,k
 var $async$CA=A.j(function(b,c){if(b===1)return A.k(c,r)
 while(true)switch(s){case 0:k=p.as
 if(k.au(0,a)){k=k.h(0,a)
@@ -53704,8 +53704,7 @@ s=d?16:17
 break
 case 16:d=n.a
 d.H(new A.aDK(d,k))
-b=t.z
-d.as.m(0,k,A.C(["video_enabled",!1,"audio_enabled",!1],b,b))
+d.as.m(0,k,A.C(["video_enabled",!1,"audio_enabled",!1],t.N,t.z))
 s=d.Q?18:19
 break
 case 18:s=20
