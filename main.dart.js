@@ -53704,7 +53704,6 @@ s=d?16:17
 break
 case 16:d=n.a
 d.H(new A.aDK(d,k))
-d.as.m(0,k,A.C(["video_enabled",!1,"audio_enabled",!1],t.N,t.z))
 s=d.Q?18:19
 break
 case 18:s=20
@@ -53769,7 +53768,9 @@ case 2:return A.k(o.at(-1),r)}})
 return A.m($async$$1,r)},
 $S:493}
 A.aDK.prototype={
-$0(){return this.a.y.push(this.b)},
+$0(){var s=this.a,r=this.b
+s.y.push(r)
+s.as.m(0,r,A.C(["video_enabled",!1,"audio_enabled",!1],t.N,t.z))},
 $S:0}
 A.aDL.prototype={
 $0(){return B.b.F(this.a.y,this.b)},
