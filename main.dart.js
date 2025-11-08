@@ -53677,7 +53677,7 @@ return A.f(A.fF(A.b([d.c9("conference_participants").fW(0,u.C).cm("room_id",a),d
 case 10:j=c
 d=J.a0(j)
 i=t.j.a(d.h(j,0))
-h=t.f.a(d.h(j,1))
+h=t.Xw.a(d.h(j,1))
 if(p.c!=null)p.I(new A.aEW(p,k,i,h))
 d=p.y,n=d.length,g=0
 case 11:if(!(g<d.length)){s=13
@@ -54048,7 +54048,8 @@ A.aEW.prototype={
 $0(){var s,r=this,q=r.a
 q.Q=r.b
 q.y=A.dg(r.c,!0,t.a)
-s=J.I(r.d,"on_stage_peers")
+s=r.d
+s=s==null?null:J.I(s,"on_stage_peers")
 if(s==null)s=[]
 q.z=A.dg(s,!0,t.z)},
 $S:0}
