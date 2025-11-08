@@ -53340,21 +53340,21 @@ if(h!=null)h.am(t.Pu).f.pK(B.V_)
 s=1
 break}o=g.gP(e)
 if(p.c!=null)p.H(new A.aDY(p,o))
-g=p.e
-g===$&&A.a()
 s=4
-return A.f(g.ayB(a),$async$lt)
-case 4:g=p.e.c
-s=g!=null?5:6
-break
-case 5:A.aV("Updating my peer_id in Supabase: "+g)
-g=t.z
-s=7
-return A.f(h.cd("conference_participants").c5(0,A.C(["peer_id",p.e.c],g,g)).ci("room_id",a).ci("user_id",f),$async$lt)
-case 7:case 6:s=8
 return A.f(p.q9(),$async$lt)
-case 8:p.e.b=new A.aDZ(p)
-h=h.cd("conference_participants").fT(0,"peer_id, video_enabled, audio_enabled, user_id").ci("room_id",a)
+case 4:g=p.e
+g===$&&A.a()
+g.b=new A.aDZ(p)
+s=5
+return A.f(g.ayB(a),$async$lt)
+case 5:g=p.e.c
+s=g!=null?6:7
+break
+case 6:A.aV("Updating my peer_id in Supabase: "+g)
+g=t.z
+s=8
+return A.f(h.cd("conference_participants").c5(0,A.C(["peer_id",p.e.c],g,g)).ci("room_id",a).ci("user_id",f),$async$lt)
+case 8:case 7:h=h.cd("conference_participants").fT(0,"peer_id, video_enabled, audio_enabled, user_id").ci("room_id",a)
 n=h.uw("user_id","neq."+f)
 d=J
 s=9
